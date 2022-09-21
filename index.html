@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Amanda Chen – Data Visualization Designer</title>
+    <meta name="author" content="Amanda Chen"/>
+    <meta name="description" content="Designer, developer, storyteller." />
+    <meta property="image" content="assets/images/portfolio.png"/>
+    <!-- bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- my CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://kit.fontawesome.com/3b4fde9f6b.js" crossorigin="anonymous"></script>
+
+    <!-- <style>
+            @import url('http://fonts.cdnfonts.com/css/georgia');
+            </style> -->
+</head>
+
+<body>
+    <div id="intro nav">
+        <div class="container">
+            <ul>
+                <li><a class="nav intro" href="#intro">Amanda Chen</a></li>
+                <li style="float:right"><a class="nav contact" href="mailto:amanda61399@gmail.com">Contact</a></li>
+                <li style="float:right"><a class="nav about">About</a></li>
+                <li style="float:right"><a class="nav projects">Projects</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="intro">
+        <div class="container">
+            <div class="introContent">
+                <h1 class="title">
+                    <div id="app"></div>
+                </h1>
+                <p class="subtitle">
+                    I tell visual stories driven by <span style="color: #FFC300">data</span>, <span
+                        style="color: #FFC300">code</span>, and <span style="color: #FFC300">design</span>. Based out of Brooklyn, I'm data visualizaion designer and developer looking for new opportunities to
+                    exercise my skills.
+                </p>
+                <p class="subtitle">
+                    Scroll down to see my work.
+                </p>
+                <div class="introArrow">
+                    <i class="arrow down"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+            <div class="container">
+                <div class="projectFlex">
+                    <h1 class="projectTitle">Projects</h1>
+                    <div id="filters" class="filters">
+                        <a href="#" data-filter="*" class="active all">All</a>
+                        <a href="#" class="visualStory" data-filter=".visualStory">Visual Story</a>
+                        <a href="#" data-filter=".static" class="static">Static</a>
+                        <a href="#" data-filter=".interactive" class="interactive">Interactive</a>
+                    </div>
+                </div>
+                <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+                    <div class="item visualStory col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="nyc-parks.html"
+                            class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>NYC Parks</h3>
+                                <span>Visual Story</span>
+                                <!-- <div class="buttons">
+                                    <button class="button">About</button>
+                                    <button class="button">Launch Project</button>
+                                 </div> -->
+                            </div>
+                            <img class="img-fluid" src="assets/images/parks-cover-image.png">
+                        </a>
+                    </div>
+
+                    <div class="item static col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="dear-lede.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Dear Lede</h3>
+                                <span>Information Design</span>
+                            </div>
+                            <img class="img-fluid" src="assets/images/dear-lede.png">
+                        </a>
+                    </div>
+
+                    <div class="item visualStory col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="astronauts.html"
+                            class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Astronauts</h3>
+                                <span>Visual Story</span>
+                            </div>
+                            <img class="img-fluid" src="assets/images/nasa cover.gif">
+                        </a>
+                    </div>
+
+                    <div class="item visualStory interactive col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="spices.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Spices</h3>
+                                <span>Interactive Visual Story</span>
+                            </div>
+                            <img class="img-fluid" src="assets/images/spices.gif">
+                        </a>
+                    </div>
+
+                    <div class="item static col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="day-in-the-life.html" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>A Day in the Life</h3>
+                                <span>Infographic</span>
+                            </div>
+                            <img class="img-fluid" src="assets/images/time-05.png">
+                        </a>
+                    </div>   
+                </div>
+            </div>
+        <!-- <div class="container">
+            <div class="projectFlex">
+                <h1 class="title is-3 pt-6">Projects</h1>
+                <li style="float:right"><a href="about.asp">All</a></li>
+                <li style="float:right"><a href="contact.asp">Interactive</a></li>
+                <li style="float:right"><a href="contact.asp">Static</a></li>
+                <li style="float:right"><a href="contact.asp">In Progress</a></li>
+                </ul>
+            </div>
+  
+            <div class="grid-container">
+                <div class="project item1">
+                    <img src="assets/images/dear-lede.png">
+                </div>
+                <div class="project item2">
+                    <p>test</p>
+                    <img src="assets/images/parks-cover-image.png">
+                </div>
+                <div class="project item3">
+                    <img src="assets/images/nasa cover.gif">
+                </div>
+                <div class="project item4">
+                    <img src="assets/images/spices.gif">
+                </div>
+                <div class="project item5">
+                    <img src="assets/images/time-05.png">
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <h1 class="title aboutMe is-3 pt-6">About me</h1>
+            <div class="aboutContent">
+                <div class="photo">
+                    <img class="profilepic" src="assets/images/picture.png">
+                </div>
+                <div class="bio">
+                    <h1 style="color: #FFC300; font-size: 32px; padding-bottom: 3%";>Hi, my name is Amanda.</h1>
+                    <p>
+                        I am a data visualization designer who shapes data into stories. As someone who comes from an
+                        academic background, my passion is to bring dull and arcane datasets to life in exciting and
+                        dynamic ways. From story ideation to research and analysis, all the way to development, my goal
+                        is to create
+                        intuitive and beautiful visualizations for you to (1) enjoy and (2) learn something new from!
+                    </p>
+                    <p>
+                        Based out of Brooklyn, I'm a recent graduate of <a class="lede" href="https://ledeprogram.com/"
+                            target="_blank">data journalism</a> at the Columbia University Graduate School of Journalism
+                        and looking for new opportunities to exercise my data and design skills. When I'm not tinkering
+                        on my laptop, I'm probably watching a movie, or people-watching at a park. Currently, I'm
+                        learning front-end web development to build interactive stories and miscrosites like this one.
+                    </p>
+                    <p style="font-style: italic;">
+                        Curious to know more? Check out my CV <a class="resume"
+                            href="https://drive.google.com/file/d/197j_Dg4A6lxGtStEB83UE-yBILrD9GBC/view"
+                            target="_blank">here</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="icons">
+                <span>
+                    <a class="iconlinks" href="https://github.com/amanda-chn" target="_blank"><i
+                            class="fa-brands fa-github fa-xl"></i></a>
+                </span>
+                <span>
+                    <a class="iconlinks" href="https://twitter.com/AmandaDoesViz" target="_blank"><i
+                            class="fa-brands fa-twitter fa-xl"></i></a>
+                </span>
+                <span>
+                    <a class="iconlinks" href="https://www.linkedin.com/in/-amandachen/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in fa-xl"></i></a>
+                </span>
+                <span>
+                    <a class="iconlinks" href="mailto:amanda61399@gmail.com"><i
+                            class="fa-solid fa-envelope fa-xl"></i></a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
