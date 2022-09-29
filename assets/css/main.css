@@ -352,7 +352,8 @@ width: 150%;
    display: flex;
    align-items: center;
    justify-content: center;
-   padding: 2em
+   /* padding: 1em; */
+   padding-bottom: 1em;
 }
 
 i {
@@ -366,6 +367,13 @@ i {
 .iconlinks:hover {
     color: #6780C3;
     transition: ease-in .2s;
+}
+
+.madeBy {
+  display: flex;
+  align-content: center;
+  justify-content: left;
+  padding-top: 2em;
 }
 
 
