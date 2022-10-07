@@ -61,7 +61,7 @@ body {
     height: 90vh;
   }
   .introContent {
-    padding: 12% 8% 0% 8%;
+    padding: 11% 8% 0% 8%;
   }
   
 
@@ -74,6 +74,13 @@ body {
   .subtitle {
     font-size: 22px;
 }
+
+.fa-lg {
+  padding-left: 0px;
+  padding-right: 15px;
+}
+
+
  
 /* arrow */
   .arrow {
